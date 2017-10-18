@@ -1,0 +1,3 @@
+sudo lxc-stop -n u10_32
+sudo lxc-stop -n u10_64
+sudo lxc-ls --running
