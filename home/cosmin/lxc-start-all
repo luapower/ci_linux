@@ -1,3 +1,0 @@
-sudo lxc-start -n u10_32 -d
-sudo lxc-start -n u10_64 -d
-sudo lxc-ls --running
