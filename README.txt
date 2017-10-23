@@ -1,4 +1,5 @@
 LUAPOWER LINUX CI SERVER HOWTO:
+----------------------------------------------------------------------
 
 * VirtualBox settings:
   * 1 CPU, VT-x, 1G RAM, 30G dynamic vdi file
