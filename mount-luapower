@@ -1,0 +1,2 @@
+sudo mkdir -p /media/sf_luapower
+sudo mount.vboxsf luapower /media/sf_luapower
