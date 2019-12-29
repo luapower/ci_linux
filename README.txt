@@ -22,8 +22,8 @@ LUAPOWER LINUX CI SERVER HOWTO:
   - this allows ssh into the machine with a single key and no password.
   - this allows pushing to github with a single key and no password.
 
-* set NOPASSWD:ALL in /etc/sudoers to users cosmin and root.
-* remove passwords for users cosmin and root with `passwd -d <user>`
+* edit `/etc/sudoers` and add set `xxxx    ALL=(ALL:ALL) NOPASSWD: ALL` for `root` and `%admin` and `%sudo`.
+* remove passwords for users cosmin and root with `passwd -d <user>`.
 * login locally to root and cosmin (it shouldn't ask for a password).
 * login via ssh to cosmin with the private key (it shouldn't ask for a password).
   - after this, we won't see a password prompt ever again.
